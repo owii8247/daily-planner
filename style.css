@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 1rem;
+  background: #f9f9f9;
+}
+
+header {
+  background-color: #4ec2b2;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.add-task, .search-bar {
+  margin: 1rem 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+#back-to-top {
+  display: none;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+@media (max-width: 600px) {
+  .add-task, .search-bar {
+    flex-direction: column;
+  }
+}
