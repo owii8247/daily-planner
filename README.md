@@ -15,7 +15,7 @@ A simple task planner web application to manage your daily tasks efficiently.
 
 1. Clone the repository:
    ```
-   git clone <your-repo-link>
+   git clone https://github.com/owii8247/daily-planner.git
    cd daily-planner
    ```
 
